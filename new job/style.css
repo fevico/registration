@@ -1,0 +1,59 @@
+
+.pot{
+    padding:5px;
+    margin : 50px;
+    height :100px;
+    width :200px;
+    }
+    .box{
+        background-color:black;
+        height:750px;
+        width:400px;
+        margin:auto;
+        padding:15px;
+        box-sizing: border-box;
+        border-radius:50px;
+    }
+    .box input[type="text"], input[type="password"],input[type="tel"]{
+        border: 5px;
+        height:25px;
+        font-size:15px;
+        border:none;
+        border-bottom:1px solid white;
+        background:transparent;
+        outline:none;
+        height:40px;
+        color:aliceblue;
+        margin:20px;
+    }
+    .box input[type="submit"]{
+        color:white;
+        background:red;
+        border-radius:10px;
+        float:right;
+        height:30px;
+    }
+    body{
+        background-image: url(cat.jpg);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:white;
+font-family: 'Signika Negative', sans-serif;
+        
+    }
+    *{
+        font-family:sans-serif;
+        box-sizing: border-box;
+    }
+    input{
+        border-radius:5px;
+    }
+    h3{
+        color:white;
+        text-align:center;
+    }
+    a{
+        color:white;
+        text-decoration:none;
+    }
